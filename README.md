@@ -56,12 +56,20 @@ The dataset is expected to be in `data/data_activity/` with the following struct
 
 ## 🛠 Usage
 
+### Option 1: Using Jupyter Notebook
 1.  Open `notebooks/multimodal_activity_recognition.ipynb` in VS Code.
 2.  Select your Python kernel.
-3.  Run the cells sequentially to:
-    - Load and preprocess data.
-    - Train the model.
-    - Evaluate performance on the test set.
+3.  Run the cells sequentially.
+
+### Option 2: Using Python Scripts (Recommended for Training)
+You can run the training directly from the terminal:
+
+```bash
+# Run training with default settings (Fusion mode)
+python -m src.train
+```
+
+The script will automatically discover classes in `data/data_activity`, train the model, and save the best weights to `outputs/models/`.
 
 ## 📈 Results
 
