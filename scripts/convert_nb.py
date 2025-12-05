@@ -1,7 +1,7 @@
 import json
 import os
 
-file_path = r"C:\Users\admin\Documents\Counting Activity for CV-CSI\wivi_project\src\wivi32_vscode.ipynb"
+file_path = r"C:\Users\admin\Documents\Counting Activity for CV-CSI\wivi_project\src\multimodal_activity_recognition.ipynb"
 
 try:
     with open(file_path, 'r', encoding='utf-8') as f:

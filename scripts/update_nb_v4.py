@@ -1,7 +1,7 @@
 import json
 import os
 
-file_path = r"C:\Users\admin\Documents\Counting Activity for CV-CSI\wivi_project\notebooks\wivi32_vscode.ipynb"
+file_path = r"C:\Users\admin\Documents\Counting Activity for CV-CSI\wivi_project\notebooks\multimodal_activity_recognition.ipynb"
 
 # Helper Functions Code
 helper_code = [

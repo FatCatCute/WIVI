@@ -9,7 +9,7 @@ wivi_project/
 ├── data/                  # Dataset folder
 │   └── data_activity/     # Organized by class (Dung, Ngoi, etc.)
 ├── notebooks/             # Jupyter Notebooks for training and analysis
-│   └── wivi32_vscode.ipynb # Main project notebook
+│   └── multimodal_activity_recognition.ipynb # Main project notebook
 ├── scripts/               # Utility and maintenance scripts
 │   ├── update_nb.py       # Tools to patch/update notebooks
 │   └── ...
@@ -56,7 +56,7 @@ The dataset is expected to be in `data/data_activity/` with the following struct
 
 ## 🛠 Usage
 
-1.  Open `notebooks/wivi32_vscode.ipynb` in VS Code.
+1.  Open `notebooks/multimodal_activity_recognition.ipynb` in VS Code.
 2.  Select your Python kernel.
 3.  Run the cells sequentially to:
     - Load and preprocess data.

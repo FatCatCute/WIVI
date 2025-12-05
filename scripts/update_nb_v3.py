@@ -1,7 +1,7 @@
 import json
 import os
 
-file_path = r"C:\Users\admin\Documents\Counting Activity for CV-CSI\wivi_project\src\wivi32_vscode.ipynb"
+file_path = r"C:\Users\admin\Documents\Counting Activity for CV-CSI\wivi_project\src\multimodal_activity_recognition.ipynb"
 
 # 1. TCN Block for CSI (Matches the "Dilated Causal Conv" architecture)
 tcn_code = [
